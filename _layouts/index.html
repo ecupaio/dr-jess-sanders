@@ -66,18 +66,32 @@
     {% endif %}
     <div id="wrapper">
         <div id="sidebar">
-            <div class="site-title">
-            </div>
-            <div class="site-nav">
+            <div class="sidebar-inner">
+                <div class="site-title">
+                    <div class="title">{{ site.title }}</div>
+                    <div class="sub-title">{{ site.description }}</div>
+                </div>
+                <div class="site-nav">
+                    {% for section in site.sections %}
+                        <div class="nav-link" data-section='{{ section.title }}'>
+                            <span>{{ section.title }}</span>
+                        </div>
+                    {% endfor %}
 
+                </div>
             </div>
         </div>
         <div id="main">
-
+            {% for section in site.sections %}
+            <div class="section" data-section='{{ section.title }}'>
+                <div class="section-title">{{ section.title }}</div>
+                <div class="section-body">{{ section.content }}</div>
+            </div>
+            {% endfor %}
         </div>
     </div>
     <div id="footer">
-        
+
     </div>
     <!-- Scripts -->
     <script src="{{ base }}/site_functions.js"></script>

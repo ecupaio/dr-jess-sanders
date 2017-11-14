@@ -44,7 +44,7 @@ defaults:
       path: ""
     values:
       layout: "index"
-#collections:
-#  collection-name:
-#    output: true
-#    permalink: /collection/:title/
+collections:
+ sections:
+   output: true
+   permalink: /
