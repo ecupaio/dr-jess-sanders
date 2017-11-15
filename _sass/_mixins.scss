@@ -1,15 +1,24 @@
 //Default Transition
 @mixin transition {
-	transition: $transition_type;
-	-webkit-transition: $transition_type;
-	-moz-transition: $transition_type;
-	-o-transition: $transition_type;
+	transition: all $transition_duration ease;
+	-webkit-transition: all $transition_duration ease;
+	-moz-transition: all $transition_duration ease;
+	-o-transition: all $transition_duration ease;
 }
-@mixin custom_transition($transition...) {
-	transition: $transition;
-	-webkit-transition: $transition;
-	-moz-transition: $transition;
-	-o-transition: $transition;
+@mixin custom_transition($prop...) {
+	transition-property: $prop;
+	-webkit-transition-property: $prop;
+	-moz-transition-property: $prop;
+	-o-transition-property: $prop;
+	transition-duration: $transition_duration;
+	-webkit-transition: $transition_duration;
+	-moz-transition: $transition_duration;
+	-o-transition: $transition_duration;
+	transition-timing-function: ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+
 }
 //Link Underline
 @mixin hover_underline {

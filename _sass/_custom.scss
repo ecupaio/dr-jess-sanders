@@ -39,10 +39,10 @@ $size-small: 568px;
 //Padding for Sections and Grids
 $grid-gutters: 0.5em 1em;
 $header-padding: 1em;
-$body-padding: 1em 3em;
-$body-padding-mobile: 1em;
+$body-padding: 0;
+$body-padding-mobile: 0;
 $footer-padding: 3em 1em;
-$transition_type: all .7s ease;
+$transition_duration: .7s;
 //Mixins
 @import "mixins";
 @include gridGutters($grid-gutters);
@@ -54,14 +54,12 @@ $transition_type: all .7s ease;
     background: linear-gradient(rgba($black,0.5),rgba($black,0.5)), url('../min_images/trees.jpg');
     background-size: cover;
     position: relative;
-    padding: 1em 3em;
+    padding: 2em 3em;
 }
 #sidebar {
     color: $tan;
     height: 100%;
-    @include flexbox;
-    justify-content: center;
-    align-items: center;
+
     position: fixed;
     width: 200px;
     .site-title {
@@ -80,6 +78,7 @@ $transition_type: all .7s ease;
             span {
                 padding: 0.5em;
                 position: relative;
+                z-index: 1;
                 &:before {
                     content: '';
                     width: 0.25em;
@@ -109,16 +108,35 @@ $transition_type: all .7s ease;
 #main {
     margin-left: 200px;
     overflow: hidden;
-    white-space: nowrap;
+
     .section {
         background: rgba($tan,0.85);
-        padding: 1em;
-        display: inline-block;
-        white-space: normal;
-        transform: translate(100%, 0%);
-        @include transition;
+        visibility: hidden;
+        left: 100%;
+        height:0;
+        opacity: 0;
+        transform: translateX( -100% ) rotateY( 180deg );
+        transform-origin: right center;
+        //@include custom_transition(transform);
+        transition: transform $transition_duration ease;
         &.active {
-            transform: translate(0%, 0%);
+            padding: 1em;
+            height: 100%;
+            opacity: 1;
+            transform: translateX( 0% ) rotateY( 0 );
+            visibility: visible;
         }
+    }
+}
+@include bp-medium {
+    #wrapper {
+        padding: 2em 1em;
+    }
+    #main {
+        margin-left: 0;
+    }
+    #sidebar {
+        position: relative;
+        width: 100%;
     }
 }
