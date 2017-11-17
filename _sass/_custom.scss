@@ -117,8 +117,7 @@ $transition_duration: .7s;
         opacity: 0;
         transform: translateX( -100% ) rotateY( 180deg );
         transform-origin: right center;
-        //@include custom_transition(transform);
-        transition: transform $transition_duration ease;
+        @include custom_transition(transform);
         &.active {
             padding: 1em;
             height: 100%;

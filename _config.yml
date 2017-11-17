@@ -19,7 +19,7 @@ meta_img: min_images/trees.jpg
 url: # the base hostname & protocol for your site, e.g. http://example.com
 ga: #Google Analytics Property
 gtm: #Google Tag Manager Property
-timezone: America/New York
+
 future: true
 livereload: true
 # Build settings
