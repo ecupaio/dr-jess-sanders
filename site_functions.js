@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 {% capture scripts %}
     {% include js/site_functions.js %}
     //Include additional scripts below
