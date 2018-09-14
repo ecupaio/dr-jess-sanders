@@ -35,14 +35,16 @@ a {
 		color: $body_link_hover;
 	}
 }
-//PureCSS Buttons
-.pure-button {
-	border-radius: 0;
+//Buttons
+.btn {
+	border-radius: $border_radius;
 	background-color: $button_bg;
 	border: 3px solid $button_bg;
 	color: $button_txt;
 	white-space: normal;
 	font-family: $header_font;
+	display: inline-block;
+	padding: 0.5em 1em;
 	&:hover, &:focus {
 		background-image: none;
 		background-color: $hover_button_bg;
@@ -50,34 +52,35 @@ a {
 		@include transition(all);
 	}
 }
+
 #wrapper {
 	min-height: 100%;
 	position:relative;
-	
+	background-image: linear-gradient(rgba($tan,0.5),rgba($tan,0.5)),url('/images/orange_bg.svg');
+	padding: 2em;
 }
 //Header
-$header-width: 200px;
+$header-width: 400px;
 #header {
 	background: $header_bg;
 	color: $header_txt;
 	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
+	top: 2em;
+	left: 2em;
+	border-radius: $border_radius;
 	width: $header-width;
-	background-image: linear-gradient(rgba($tan,0.6),rgba($tan,0.6)),url('/images/lavender_bg.jpg');
-	background-position: center bottom;
-	background-size: cover;
-	background-repeat: no-repeat;
 	h1, h2, h3, h4, h5 {
 		color: $header_txt;
 	}
+	@include box-shadow;
 }
 //main
 #main {
 	position: relative;
-	margin-left: $header_width;
-
+	margin-left: calc(#{$header-width} + 2em);
+	background: $white;
+	border-radius: $border_radius;
+	@include box-shadow;
 }
 //Social Share
 $twitter_brand: #1da1f2;

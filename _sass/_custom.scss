@@ -3,11 +3,18 @@
 $charcoal: #333;
 $white: #fff;
 $blue: #3e73cb;
-$tan: #F2E8C4;
+$tan: #FBE9AE;
 $purple: #906090;
+$green: #556910;
+
+$orange: #F28A49;
+$l_grey: #F0EFED;
+$grey: #E4DFDB;
+
+$border_radius: 5px;
 //Theme colors
 $text_color: $charcoal;
-$primary_color: $blue;
+$primary_color: $orange;
 $secondary_color: $white;
 //Body and Heading text Colors
 $body_txt: $text_color;
@@ -20,7 +27,7 @@ $footer_txt: $secondary_color;
 $copyright_link: $body_link;
 $copyright_link_hover: $body_link_hover;
 //Header Colors
-$header_bg: $primary_color;
+$header_bg: $white;
 $header_txt: $text_color;
 //Button Colors
 $button_bg: $primary_color;

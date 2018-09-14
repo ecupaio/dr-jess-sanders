@@ -3,5 +3,6 @@ title: Home Page
 layout: index
 ---
 <div id="home">
- Dr. Jess Sanders
+ Jess Sanders, PhD
+ <a class="btn">button</a>
 </div>
