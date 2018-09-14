@@ -53,15 +53,31 @@ a {
 #wrapper {
 	min-height: 100%;
 	position:relative;
+	
 }
 //Header
+$header-width: 200px;
 #header {
 	background: $header_bg;
 	color: $header_txt;
-
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: $header-width;
+	background-image: linear-gradient(rgba($tan,0.6),rgba($tan,0.6)),url('/images/lavender_bg.jpg');
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 	h1, h2, h3, h4, h5 {
 		color: $header_txt;
 	}
+}
+//main
+#main {
+	position: relative;
+	margin-left: $header_width;
+
 }
 //Social Share
 $twitter_brand: #1da1f2;
@@ -125,6 +141,8 @@ $facebook_brand: #3B5998;
 	color: $footer_txt;
 	text-align: center;
 	clear: both;
+	position: relative;
+	z-index: 10;
 }
 //Form Inputs
 input,textarea {

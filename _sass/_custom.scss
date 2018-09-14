@@ -3,6 +3,8 @@
 $charcoal: #333;
 $white: #fff;
 $blue: #3e73cb;
+$tan: #F2E8C4;
+$purple: #906090;
 //Theme colors
 $text_color: $charcoal;
 $primary_color: $blue;
@@ -19,7 +21,7 @@ $copyright_link: $body_link;
 $copyright_link_hover: $body_link_hover;
 //Header Colors
 $header_bg: $primary_color;
-$header_txt: $secondary_color;
+$header_txt: $text_color;
 //Button Colors
 $button_bg: $primary_color;
 $button_txt: $secondary_color;
@@ -48,9 +50,3 @@ $transition_duration: .5s;
 @include headerPadding($header-padding);
 @include bodyPadding($body-padding);
 @include footerPadding($footer-padding);
-//Start Theme Customizations below:
-h1 {
-  &:hover {
-    @include transition(color, z-index);
-  }
-}

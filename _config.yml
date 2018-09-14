@@ -22,9 +22,10 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+  - jekyll-menus
 collections:
   terms:
-    output: true  
+    output: true
 defaults:
 - scope:
     path: ''

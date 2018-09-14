@@ -2,5 +2,6 @@
 title: Home Page
 layout: index
 ---
-
-home page content
+<div id="home">
+ Dr. Jess Sanders
+</div>
