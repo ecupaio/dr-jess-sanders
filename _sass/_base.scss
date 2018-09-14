@@ -1,4 +1,3 @@
-@import "mixins";
 html,
 body {
 	margin:0;
@@ -31,9 +30,24 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	color: $body_link;
-	@include transition;
+	@include transition(all);
 	&:hover, &:active, &:focus {
 		color: $body_link_hover;
+	}
+}
+//PureCSS Buttons
+.pure-button {
+	border-radius: 0;
+	background-color: $button_bg;
+	border: 3px solid $button_bg;
+	color: $button_txt;
+	white-space: normal;
+	font-family: $header_font;
+	&:hover, &:focus {
+		background-image: none;
+		background-color: $hover_button_bg;
+		color: $hover_button_txt;
+		@include transition(all);
 	}
 }
 #wrapper {
@@ -42,37 +56,11 @@ a {
 }
 //Header
 #header {
-	@include header_colors;
+	background: $header_bg;
+	color: $header_txt;
 
 	h1, h2, h3, h4, h5 {
-		@include header_colors;
-	}
-}
-//PureCSS Grids
-/* fix for IE and Firefox responsiveness */
-.pure-g {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-	flex-flow: row wrap;
-}
-.pure-g [class *= "pure-u"] {
-	font-family: $body-font;
-}
-.pure-g {
-	font-family: $body-font;
-}
-//BSD Form
-@include form_colors;
-.signup-form {
-	padding: 1em;
-	width: 100%;
-	.pure-button {
-		text-transform: uppercase;
-		font-weight: bold;
-		width: 100%;
+		color: $header_txt;
 	}
 }
 //Social Share
@@ -94,11 +82,11 @@ $facebook_brand: #3B5998;
 		.tweet-link {
 			.fa-twitter {
 				color: $white;
-				@include transition;
+				@include transition(all);
 			}
 	        .fa-circle {
 	            color: $twitter_brand;
-				@include transition;
+				@include transition(all);
 	        }
 			&:hover {
 				cursor: pointer;
@@ -113,11 +101,11 @@ $facebook_brand: #3B5998;
 	    .fb-link {
 			.fa-facebook {
 				color: $white;
-				@include transition;
+				@include transition(all);
 			}
 	        .fa-circle {
 	            color: $facebook_brand;
-				@include transition;
+				@include transition(all);
 	        }
 			&:hover {
 				cursor: pointer;
@@ -133,33 +121,10 @@ $facebook_brand: #3B5998;
 }
 //Footer
 #footer {
-	@include footer_colors;
+	background-color: $footer_bg;
+	color: $footer_txt;
 	text-align: center;
 	clear: both;
-	font-size: 7pt;
-	a, .copyright-text {
-        font-size: 0.75em;
-    }
-	a {
-	    color: $copyright_link;
-	    text-decoration: none;
-	    &:hover {
-	      color: $copyright_link_hover;
-	    }
-  	}
-
-	.copyright-footer {
-		border: 1px solid $footer_txt;
-		width: 75%;
-		margin: auto;
-		display: inline-block;
-		.copyright-text {
-			padding: 1em 2em;
-			p {
-				margin: 0;
-			}
-		}
-	}
 }
 //Form Inputs
 input,textarea {

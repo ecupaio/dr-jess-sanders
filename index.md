@@ -4,5 +4,3 @@ layout: index
 ---
 
 home page content
-
-some more stuff

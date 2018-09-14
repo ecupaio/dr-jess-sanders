@@ -1,41 +1,35 @@
 ---
-title: Dr. Jess Sanders
-timezone: UTC
+title: Single Page Template
+description: site description
+meta_img:
+twitter:
+favicon:
+url:
+ga:
+gtm:
+timezone: America/New York
+future: true
+markdown: kramdown
+kramdown:
+  auto_ids: false
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- gruntfile.js
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
 collections:
-  posts:
-    title: Posts
-    output: true
-  sections:
-    title: Sections
-    output: true
-    permalink: "/"
-  uploads:
-    title: Uploads
-    output: true
+  terms:
+    output: true  
 defaults:
 - scope:
     path: ''
   values:
     layout: index
-description: Urban Forester Extraodinaire
-meta_img: min_images/trees.jpg
-url: 
-ga: 
-gtm: 
-future: true
-livereload: true
-markdown: kramdown
-kramdown:
-  auto_ids: false
-theme: minima
-gems:
-- jekyll-feed
-- jekyll-admin
-- uglifier
-exclude:
-- Gemfile
-- Gemfile.lock
-- node_modules
-sass:
-  sass_dir: _sass
-  style: compressed
+# collections:
+#   collection-name:
+#     output: true
