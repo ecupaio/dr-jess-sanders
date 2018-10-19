@@ -10,3 +10,19 @@ fields:
   - type: text
     name: title
     label: Title
+  - type: text
+    name: company
+    label: Company
+  - type: datetime
+    name: date-start
+    label: Date Start
+  - type: datetime
+    name: date-end
+    label: Date end
+  - type: textarea
+    name: details
+    label: Details
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
