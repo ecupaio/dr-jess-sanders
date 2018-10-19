@@ -56,12 +56,14 @@ a {
 #wrapper {
 	min-height: 100%;
 	position:relative;
-	background-image: linear-gradient(rgba($tan,0.5),rgba($tan,0.5)),url('/images/orange_bg.svg');
+	background-color: $l_gray;
 	padding: 2em;
 }
+
 //Header
 $header-width: 400px;
-#header {
+$section-padding: 1em;
+#sidebar {
 	background: $header_bg;
 	color: $header_txt;
 	position: fixed;
@@ -69,16 +71,32 @@ $header-width: 400px;
 	left: 2em;
 	border-radius: $border_radius;
 	width: $header-width;
-	h1, h2, h3, h4, h5 {
-		color: $header_txt;
-	}
+	overflow: hidden;
+	padding: 0;
 	@include box-shadow;
+	.site-info {
+		padding: $section-padding;
+	}
+	.menu {
+		background-color: $primary_color;
+		padding: $section-padding;
+
+		ul {
+			margin: 0;
+			list-style: none;
+			padding-left: 0;
+			a {
+				color: $white;
+			}
+		}
+	}
 }
 //main
 #main {
 	position: relative;
 	margin-left: calc(#{$header-width} + 2em);
 	background: $white;
+	max-width: $size-large;
 	border-radius: $border_radius;
 	@include box-shadow;
 }

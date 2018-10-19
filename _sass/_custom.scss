@@ -2,14 +2,10 @@
 //Color Variables
 $charcoal: #333;
 $white: #fff;
-$blue: #3e73cb;
-$tan: #FBE9AE;
-$purple: #906090;
-$green: #556910;
+$orange: #FA6120;
+$l_gray: #F0EFED;
+$gray: #4E4E4E;
 
-$orange: #F28A49;
-$l_grey: #F0EFED;
-$grey: #E4DFDB;
 
 $border_radius: 5px;
 //Theme colors
@@ -34,7 +30,7 @@ $button_bg: $primary_color;
 $button_txt: $secondary_color;
 $hover_button_bg: $secondary_color;
 $hover_button_txt: $primary_color;
-//BSD Form Colors
+//Form Colors
 $form_bg: $secondary_color;
 $form_txt: $text_color;
 $form_btn_bg: $primary_color;
@@ -50,7 +46,7 @@ $header-padding: 1em;
 $body-padding: 1em 3em;
 $body-padding-mobile: 1em;
 $footer-padding: 3em 1em;
-$transition_duration: .5s;
+$transition_duration: .3s;
 //Mixins
 @import "mixins";
 @include gridGutters($grid-gutters);
