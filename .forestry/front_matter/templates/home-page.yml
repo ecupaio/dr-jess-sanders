@@ -26,3 +26,23 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+- type: field_group
+  label: Teaching
+  name: teaching
+  fields:
+  - type: text
+    name: school
+    label: School
+  - type: text
+    name: title
+    label: Title
+  - type: field_group
+    name: course
+    label: Course
+    fields:
+    - type: text
+      name: title
+      label: Title
+    - type: text
+      name: semester
+      label: Semester
