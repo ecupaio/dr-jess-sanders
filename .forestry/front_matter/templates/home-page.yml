@@ -3,26 +3,6 @@ label: Home page
 hide_body: false
 is_partial: false
 fields:
-- type: field_group
-  label: Experience
-  name: experience
-  fields:
-  - type: text
-    name: title
-    label: Title
-  - type: text
-    name: company
-    label: Company
-  - type: text
-    name: timeline
-    label: Timeline
-  - type: textarea
-    name: details
-    label: Details
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
 - type: field_group_list
   name: publications
   label: Publications
@@ -66,3 +46,27 @@ fields:
   - type: text
     name: school
     label: School
+- type: field_group_list
+  name: experience
+  label: Experience
+  fields:
+  - type: text
+    name: org
+    label: Organization
+  - type: field_group_list
+    name: role
+    label: Role
+    fields:
+    - type: text
+      name: title
+      label: Title
+    - type: text
+      name: timeline
+      label: Timeline
+    - type: textarea
+      name: description
+      label: Description
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
