@@ -22,9 +22,6 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-menus
-collections:
-  terms:
-    output: true
 defaults:
 - scope:
     path: ''

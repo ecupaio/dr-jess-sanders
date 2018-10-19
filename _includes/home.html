@@ -1,0 +1,25 @@
+<div id="home">
+ <section id="about">
+  <h2>Jessica Sanders</h2>
+  <h3>PhD | PMP</h3>
+  <p>
+    {{ page.about | markdownify }}
+  </p>
+  <a href="" class="btn white">Download CV</a>
+ </section>
+ <section id="experience">
+   <div>
+     <h2>Professional Experience</h2>
+     {% for experience in page.experience %}
+     <div class="experience">
+       <h4>{{ experience.org }}</h4>
+       {% for role in experience.role %}
+       <p>
+         {{ role.title }}
+       </p>
+       {% endfor %}
+     </div>
+     {% endfor %}
+   </div>
+ </section>
+</div>

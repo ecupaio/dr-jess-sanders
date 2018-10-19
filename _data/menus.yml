@@ -1,13 +1,18 @@
 ---
 sidebar:
-  - url: /#papers
-    title: Papers
+  - url: /#publications
+    title: Publications
+    icon: fa-file-text
   - url: /#experience
     title: Experience
-  - url: /#community
-    title: Community Engagement
+    icon: fa-briefcase
+  - url: /#leadership
+    title: Leadership
+    icon: fa-gavel
   - url: /#education
     title: Education
+    icon: fa-graduation-cap
   - url: /#blog
     title: Blog
+    icon: fa-pencil
 ---

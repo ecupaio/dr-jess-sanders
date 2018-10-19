@@ -13,12 +13,11 @@ body {
 //Default Fonts
 h1, h2, h3, h4, h5 {
 	font-family: $header-font;
-	color: $heading;
+
 }
 body {
 	font-family: $body-font;
 	font-size: 14pt;
-	color: $body_txt;
 }
 b, strong {
 	font-family: $header-font;
@@ -38,18 +37,20 @@ a {
 //Buttons
 .btn {
 	border-radius: $border_radius;
-	background-color: $button_bg;
-	border: 3px solid $button_bg;
-	color: $button_txt;
+	background-color: $primary_color;
+	color: $white;
 	white-space: normal;
 	font-family: $header_font;
 	display: inline-block;
 	padding: 0.5em 1em;
+	@include transition(box-shadow);
 	&:hover, &:focus {
-		background-image: none;
-		background-color: $hover_button_bg;
-		color: $hover_button_txt;
-		@include transition(all);
+		@include box-shadow;
+
+	}
+	&.white {
+		background-color: $white;
+		color: $primary_color;
 	}
 }
 
@@ -60,110 +61,30 @@ a {
 	padding: 2em;
 }
 
-//Header
-$header-width: 400px;
-$section-padding: 1em;
-#sidebar {
-	background: $header_bg;
-	color: $header_txt;
-	position: fixed;
-	top: 2em;
-	left: 2em;
-	border-radius: $border_radius;
-	width: $header-width;
-	overflow: hidden;
-	padding: 0;
-	@include box-shadow;
-	.site-info {
-		padding: $section-padding;
-	}
-	.menu {
-		background-color: $primary_color;
-		padding: $section-padding;
-
-		ul {
-			margin: 0;
-			list-style: none;
-			padding-left: 0;
-			a {
-				color: $white;
-			}
-		}
-	}
-}
 //main
 #main {
 	position: relative;
-	margin-left: calc(#{$header-width} + 2em);
-	background: $white;
 	max-width: $size-large;
+	margin: auto;
 	border-radius: $border_radius;
+	background-color: $white;
+	overflow: hidden;
 	@include box-shadow;
-}
-//Social Share
-$twitter_brand: #1da1f2;
-$facebook_brand: #3B5998;
-.social-share {
-	display: block;
-	margin-top: 1em;
-	&.links {
-		i {
-			font-size: 1.5em;
-		}
-		a:nth-child(2) {
-			margin-left: 1em;
-		}
-	}
-	&.buttons {
-		color: $white;
-		.tweet-link {
-			.fa-twitter {
-				color: $white;
-				@include transition(all);
-			}
-	        .fa-circle {
-	            color: $twitter_brand;
-				@include transition(all);
-	        }
-			&:hover {
-				cursor: pointer;
-				.fa-twitter {
-	            	color: $twitter_brand;
-				}
-	            .fa-circle {
-	                color: $white;
-	            }
-			}
-	    }
-	    .fb-link {
-			.fa-facebook {
-				color: $white;
-				@include transition(all);
-			}
-	        .fa-circle {
-	            color: $facebook_brand;
-				@include transition(all);
-	        }
-			&:hover {
-				cursor: pointer;
-				.fa-facebook {
-					color: $facebook_brand;
-				}
-	            .fa-circle {
-	                color: $white;
-	            }
-			}
-	    }
+	section {
+		padding: 1em 2em;
 	}
 }
-//Footer
-#footer {
-	background-color: $footer_bg;
-	color: $footer_txt;
-	text-align: center;
-	clear: both;
-	position: relative;
+//menu
+#menu-toggle {
+	position: fixed;
+	right: 0;
+	top: 2em;
 	z-index: 10;
+	@include box-shadow;
+	background-color: $orange;
+	color: $white;
+	height: 2em;
+	width: 3em;
 }
 //Form Inputs
 input,textarea {
