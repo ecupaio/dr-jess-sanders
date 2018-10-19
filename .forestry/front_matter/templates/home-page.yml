@@ -59,3 +59,13 @@ fields:
     - type: text
       name: timeline
       label: Timeline
+- type: field_group_list
+  name: education
+  label: Education
+  fields:
+  - type: text
+    name: certification
+    label: Certification
+  - type: text
+    name: school
+    label: School
