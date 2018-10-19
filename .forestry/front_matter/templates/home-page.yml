@@ -2,4 +2,11 @@
 label: Home page
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: field_group
+  label: Experience
+  name: experience
+  fields:
+  - type: text
+    name: title
+    label: Title
