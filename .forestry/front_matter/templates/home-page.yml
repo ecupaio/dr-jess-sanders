@@ -26,23 +26,19 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-- type: field_group
-  label: Teaching
-  name: teaching
+- type: field_group_list
+  name: publications
+  label: Publications
   fields:
-  - type: text
-    name: school
-    label: School
   - type: text
     name: title
     label: Title
-  - type: field_group
-    name: course
-    label: Course
-    fields:
-    - type: text
-      name: title
-      label: Title
-    - type: text
-      name: semester
-      label: Semester
+  - type: text
+    name: link
+    label: Link
+  - type: text
+    name: publisher
+    label: Publisher
+  - type: text
+    name: authors
+    label: Authors
