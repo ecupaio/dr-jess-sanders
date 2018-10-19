@@ -42,3 +42,20 @@ fields:
   - type: text
     name: authors
     label: Authors
+- type: field_group_list
+  name: community_engagement
+  label: Community Engagement
+  fields:
+  - type: text
+    name: organization
+    label: Organization
+  - type: field_group_list
+    name: role
+    label: Role
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: timeline
+      label: Timeline
