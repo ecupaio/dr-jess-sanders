@@ -2,36 +2,9 @@
 title: Home Page
 layout: index
 education:
-- title: 
-- title: 
+- title:
+- title:
 experience:
-- org: Rutgers University
-  role:
-  - title: Fellow
-    timeline: July 2010 - July 2012
-    description: "**NSF STEM**\t\t\t\t\t\t\t\t\t\n\n* _National Science Foundation
-      Science, Technology, engineering, and Mathematics Graduate Students in K-12
-      Education._ \n* Build and maintain learning communities in the STEM fields by
-      establishing educational partnerships involving Rutgers University and local
-      school districts teaching grades 5-9.   \n\n**Pre-Doctoral Leadership Development
-      Institute**\n\n* Group designed to help prepare doctoral students for faculty
-      and academic leadership roles.  \n* Focused on leadership concepts and competencies,
-      and the contemporary challenges facing higher education in the United States.\n\n**Carnegie/Rutgers
-      Academy for the Scholarship of Teaching and Learning** \n\n* Group created initiatives
-      to advance Teaching Assistant understandings of teaching methodologies.\n* Prepared
-      future faculty through institutional partnerships with senior faculty.\n* Assessment
-      to identify the outcomes of improved teaching pedagogy."
-  - title: "Graduate Research Assistant\t"
-    timeline: Fall 2009- Spring 2011
-    description: "* Mapping Power line Right of Way (ROW) in the New Jersey Pinelands.
-       Conducting Vegetation surveys in the Power line ROW."
-  - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
-    timeline: June 2008 - July 2012
-    description: |-
-      * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
-      * Organized and ran the annual international teaching assistant orientation
-      * Created and planned TAP workshops and certificate programs for graduate students and faculty.
-      * Created promotional materials for the program.
 - org: Casey Trees
   timeline: July 2012 - Present
   role:
@@ -75,15 +48,43 @@ experience:
       analysis, report language and related support for all publications.\n* Monitors
       the conditions and extent of DC’s (and metro’s) urban forest through regular
       aerial and on-ground assessments and works with partners to build regional coordination/cooperation."
+- org: Rutgers University
+  timeline: June 2008 - July 2012
+  role:
+  - title: Fellow
+    timeline: July 2010 - July 2012
+    description: "**NSF STEM**\t\t\t\t\t\t\t\t\t\n\n* _National Science Foundation
+      Science, Technology, engineering, and Mathematics Graduate Students in K-12
+      Education._ \n* Build and maintain learning communities in the STEM fields by
+      establishing educational partnerships involving Rutgers University and local
+      school districts teaching grades 5-9.   \n\n**Pre-Doctoral Leadership Development
+      Institute**\n\n* Group designed to help prepare doctoral students for faculty
+      and academic leadership roles.  \n* Focused on leadership concepts and competencies,
+      and the contemporary challenges facing higher education in the United States.\n\n**Carnegie/Rutgers
+      Academy for the Scholarship of Teaching and Learning** \n\n* Group created initiatives
+      to advance Teaching Assistant understandings of teaching methodologies.\n* Prepared
+      future faculty through institutional partnerships with senior faculty.\n* Assessment
+      to identify the outcomes of improved teaching pedagogy."
+  - title: "Graduate Research Assistant\t"
+    timeline: Fall 2009- Spring 2011
+    description: "* Mapping Power line Right of Way (ROW) in the New Jersey Pinelands.
+       Conducting Vegetation surveys in the Power line ROW."
+  - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
+    timeline: June 2008 - July 2012
+    description: |-
+      * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
+      * Organized and ran the annual international teaching assistant orientation
+      * Created and planned TAP workshops and certificate programs for graduate students and faculty.
+      * Created promotional materials for the program.      
 papers:
-- title: 
-  link: 
+- title:
+  link:
 press:
-- outlet: 
-  logo: 
-  link: 
+- outlet:
+  logo:
+  link:
 teaching:
-- 
+-
 about: lorem ipsum
 
 ---
