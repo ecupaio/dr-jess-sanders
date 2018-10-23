@@ -16,21 +16,23 @@ menus: sidebar
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     {% endif %}
+
     <div id="wrapper">
-        <div id="menu-toggle">
-          <i class="fa fa-angle-left"></i>
-        </div>
-        <nav>
-          <ul>
-            {% for item in site.menus.sidebar %}
-            <li>
-              {{ item.title }}
-            </li>
-            {% endfor %}
-          </ul>
-        </nav>
         <div id="main">
-            {{ content }}
+          <nav id="site-nav">
+            <div class="menu-toggle">
+              <i class="fa fa-angle-left"></i>
+            </div>
+            <ul class="nav-links">
+              {% for item in site.menus.sidebar %}
+              <li>
+                <a class="nav-link">{{ item.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+
+          {{ content }}
         </div>
     </div>
     <!-- Scripts -->

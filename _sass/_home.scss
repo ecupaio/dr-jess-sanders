@@ -1,7 +1,112 @@
 #home {
+  margin-top: 4em;
+  & > section {
+    $triangle-side: 100px;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      bottom: 0;
+      width: $triangle-side;
+      height: 100%;
+    }
+    & > div {
+      $triangle-top: 4em;
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: $primary_color;
+        left: 0;
+
+        height: $triangle-top;
+        top: -#{$triangle-top};
+        -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+        clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+
+      }
+      padding-bottom: #{$triangle-top + 2em};
+    }
+    &:nth-child(odd) {
+      &:before, &:after {
+        background-color: $primary_color;
+      }
+      & > div {
+        background-color: $primary_color;
+        color: $white;
+        &:before {
+          background-color: $primary_color;
+        }
+      }
+    }
+    &:nth-child(even) {
+      &:before, &:after {
+        background-color: $white;
+      }
+      & > div {
+        background-color: $white;
+        color: $charcoal;
+        &:before {
+          background-color: $white;
+        }
+      }
+    }
+    &:before {
+      right: -#{$triangle-side};
+      -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+      clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    }
+    &:after  {
+      left: -#{$triangle-side};
+      -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+      clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+
+  }
   #about {
-    background-color: $orange;
     color: $white;
     text-align: center;
+    &:before, &:after {
+    }
+  }
+  #experience {
+    .experience-grid {
+      .experience-timeline {
+        background-color: $primary_color;
+        padding: 1em;
+        font-size: 0.85em;
+        text-align: center;
+        position: relative;
+        color: $white;
+        font-family: $header-font;
+        font-weight: 700;
+        &:after {
+          content: '';
+          left: 100%;
+
+          top: 0;
+          $triangle: 24px;
+          border-top: $triangle solid transparent;
+          border-bottom: $triangle solid transparent;
+          border-left: $triangle solid $primary_color;
+          position: absolute;
+        }
+      }
+      .details-col {
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          left: 3px;
+          top: 0;
+          height: 100%;
+          width: 3px;
+          background-color: $primary_color;
+
+        }
+      }
+    }
   }
 }
