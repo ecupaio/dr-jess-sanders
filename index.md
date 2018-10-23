@@ -21,6 +21,10 @@ experience:
       to advance Teaching Assistant understandings of teaching methodologies.\n* Prepared
       future faculty through institutional partnerships with senior faculty.\n* Assessment
       to identify the outcomes of improved teaching pedagogy."
+  - title: "Graduate Research Assistant\t"
+    timeline: Fall 2009- Spring 2011
+    description: "* Mapping Power line Right of Way (ROW) in the New Jersey Pinelands.
+       Conducting Vegetation surveys in the Power line ROW."
 - org: Casey Trees
   timeline: July 2012 - Present
   role:
