@@ -25,6 +25,13 @@ experience:
     timeline: Fall 2009- Spring 2011
     description: "* Mapping Power line Right of Way (ROW) in the New Jersey Pinelands.
        Conducting Vegetation surveys in the Power line ROW."
+  - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
+    timeline: June 2008- July 2012
+    description: |-
+      * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
+      * Organized and ran the annual international teaching assistant orientation
+      * Created and planned TAP workshops and certificate programs for graduate students and faculty.
+      * Created promotional materials for the program.
 - org: Casey Trees
   timeline: July 2012 - Present
   role:
