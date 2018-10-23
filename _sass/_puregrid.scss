@@ -640,7 +640,7 @@
 	-ms-flex-flow: row wrap;
 	flex-flow: row wrap;
 }
-.pure-g [class *= "pure-u"] {
+.pure-g [class*="pure-u"] {
 	font-family: $body-font;
 }
 .pure-g {
