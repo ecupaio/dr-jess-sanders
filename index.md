@@ -26,7 +26,7 @@ experience:
     description: "* Mapping Power line Right of Way (ROW) in the New Jersey Pinelands.
        Conducting Vegetation surveys in the Power line ROW."
   - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
-    timeline: June 2008- July 2012
+    timeline: June 2008 - July 2012
     description: |-
       * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
       * Organized and ran the annual international teaching assistant orientation
