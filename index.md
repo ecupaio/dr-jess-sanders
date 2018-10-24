@@ -118,6 +118,9 @@ publications:
   authors: Sanders J, Grabosky J, Flaxa-Raymond N, Greenfeld J
   publish_date: 2008
   volume: 43(3)594
+leadership:
+- organization: Ecology+ NSF Steering Committee
+  timeline: August 2017 - Present
 
 ---
 {% include home.html %}
