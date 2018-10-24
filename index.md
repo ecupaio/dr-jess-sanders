@@ -5,9 +5,9 @@ education:
 - cert: Certified Project Management Professional
 - cert: ISA Certified Arborist
 - cert: Ph.D.
-  school: Rutgers, The State University of New Jersey, New Brunswick, New Jersey
+  school: Rutgers University
 - cert: B.S. Environmental Studies
-  school: Richard Stockton College, Pomona, New Jersey
+  school: Richard Stockton College
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
