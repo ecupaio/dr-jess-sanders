@@ -132,6 +132,15 @@ leadership:
   role:
   - title: Co-Chair
     timeline: January 2015-August 2017
+- organization: International Society of Arborists Arboricultural Research and Education
+    Academy
+  role:
+  - title: President
+    timeline: August 2016 - Current
+  - title: President Elect
+    timeline: August 2015 – July 2016
+  - title: Vice-President
+    timeline: August 2014-July 2015
 
 ---
 {% include home.html %}
