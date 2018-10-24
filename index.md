@@ -2,6 +2,8 @@
 title: Home Page
 layout: index
 education:
+- cert: Ph.D.
+  school: Rutgers, The State University of New Jersey, New Brunswick, New Jersey
 - cert: ISA Certified Arborist
 - title: 
   cert: Certified Project Management Professional
