@@ -121,6 +121,9 @@ publications:
 leadership:
 - organization: Ecology+ NSF Steering Committee
   timeline: August 2017 - Present
+- organization: Mid-Atlantic Chapter International Society of Arborists
+  role:
+  - title: Board Member
 
 ---
 {% include home.html %}
