@@ -2,8 +2,8 @@
 title: Home Page
 layout: index
 education:
-- title:
-- title:
+- title: 
+- title: 
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -71,15 +71,14 @@ experience:
        Conducting Vegetation surveys in the Power line ROW."
   - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
     timeline: June 2008 - July 2012
-    description: "* Organized, registered and ran the annual orientations for approximately
-      300 new teaching assistants and part-time lecturers.\n* Organized and ran the
-      annual international teaching assistant orientation\n* Created and planned TAP
-      workshops and certificate programs for graduate students and faculty.\n* Created
-      promotional materials for the program."
+    description: |-
+      * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
+      * Organized and ran the annual international teaching assistant orientation
+      * Created and planned TAP workshops and certificate programs for graduate students and faculty.
+      * Created promotional materials for the program.
 teaching:
--
-about: |-
-  About text
+- 
+about: About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
     distribution programs in the US'
@@ -87,33 +86,35 @@ publications:
   publisher: Urban Foresty and Urban Greening
   authors: Nguyen VD, Roman L, Locke DH, Mincey SK, Sanders JR, Smith Fichman E, Duran-Mitchell
     M, Lumban Tobing S
-  publish_date: '2017'
+  publish_date: 2017
 - title: 'Trees and Income: Washington D.C. Tree Canopy Changes from 2006-2011 and
     which neighborhoods experienced them'
   link: https://caseytrees.org/wp-content/uploads/2017/07/White-Paper-Trees-and-Income.pdf
   publisher: Casey Trees
   authors: Sanders JR, Locke DH, O’Neil-Dunne JPM, MacFaden S, Royar A, Pelletier
     K, Gomez R
-  publish_date: '2015'
+  publish_date: 2015
+  volume: 13(2):295-303
 - title: '20 years later: Does reduced soil area change overall growth?'
   publisher: Urban Forestry  and Urban Greening
   authors: Sanders JR, Grabosky JC
-  publish_date: '2014'
+  publish_date: 2014
+  volume: 13(2):295-303
 - title: 'Proactive, not reactive: Evolving Elm Management in the Nation’s  Capital'
   link: https://digitalcommons.lmu.edu/cate/vol6/iss1/8/
   publisher: Cities and the Environment
   authors: Sanders JR, Duszak JE, Woodworth JW
-  publish_date: '2013'
+  publish_date: 2013
 - publisher: Journal of Arboriculture and Urban Forestry
   authors: Sanders JR, Grabosky JC, Cowie P
-  publish_date: '2013'
+  publish_date: 2013
   title: Establishing Maximum Size Expectations for Urban Trees with Regard to  Designed
     Space
   link: http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3266&Type=2
 - title: Urban tree planting and mortality statistics in the  Boroughs of NYC
   publisher: HortScience
   authors: Sanders J, Grabosky J, Flaxa-Raymond N, Greenfeld J
-  publish_date: '2008'
+  publish_date: 2008
 
 ---
 {% include home.html %}
