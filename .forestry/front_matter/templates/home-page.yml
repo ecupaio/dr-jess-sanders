@@ -71,7 +71,7 @@ fields:
   label: Education
   fields:
   - type: text
-    name: certification
+    name: cert
     label: Certification
   - type: text
     name: school
