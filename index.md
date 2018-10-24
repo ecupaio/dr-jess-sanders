@@ -94,6 +94,13 @@ publications:
   authors: Nguyen VD, Roman L, Locke DH, Mincey SK, Sanders JR, Smith Fichman E, Duran-Mitchell
     M, Lumban Tobing S
   publish_date: '2017'
+- title: 'Trees and Income: Washington D.C. Tree Canopy Changes from 2006-2011 and
+    which neighborhoods experienced them'
+  link: https://caseytrees.org/wp-content/uploads/2017/07/White-Paper-Trees-and-Income.pdf
+  publisher: Casey Trees
+  authors: Sanders JR, Locke DH, O’Neil-Dunne JPM, MacFaden S, Royar A, Pelletier
+    K, Gomez R
+  publish_date: '2015'
 
 ---
 {% include home.html %}
