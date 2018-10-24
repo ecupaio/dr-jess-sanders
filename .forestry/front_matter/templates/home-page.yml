@@ -46,6 +46,9 @@ fields:
   - type: text
     label: publish date
     name: publish_date
+  - type: text
+    name: volume
+    label: Volume, issue, pages
 - type: field_group_list
   name: community_engagement
   label: Community Engagement
