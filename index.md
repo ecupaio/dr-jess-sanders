@@ -101,6 +101,9 @@ publications:
   authors: Sanders JR, Locke DH, O’Neil-Dunne JPM, MacFaden S, Royar A, Pelletier
     K, Gomez R
   publish_date: '2015'
+- title: '20 years later: Does reduced soil area change overall growth?'
+  publisher: Urban Forestry  and Urban Greening
+  authors: Sanders JR, Grabosky JC
 
 ---
 {% include home.html %}
