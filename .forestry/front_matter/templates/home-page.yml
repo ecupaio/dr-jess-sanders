@@ -50,8 +50,8 @@ fields:
     name: volume
     label: Volume, issue, pages
 - type: field_group_list
-  name: community_engagement
-  label: Community Engagement
+  name: leadership
+  label: Leadership
   fields:
   - type: text
     name: organization
