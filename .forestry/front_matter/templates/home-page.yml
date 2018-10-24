@@ -66,9 +66,6 @@ fields:
     - type: text
       name: timeline
       label: Timeline
-  - type: text
-    name: timeline
-    label: timeline
 - type: field_group_list
   name: education
   label: Education
