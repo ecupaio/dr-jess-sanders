@@ -27,13 +27,8 @@ b, strong {
 
 //Links
 a {
-	font-weight: bold;
 	text-decoration: none;
-	color: $body_link;
-	@include transition(all);
-	&:hover, &:active, &:focus {
-		color: $body_link_hover;
-	}
+	color: inherit;
 }
 //Buttons
 .btn {
@@ -44,6 +39,7 @@ a {
 	font-family: $header_font;
 	display: inline-block;
 	padding: 0.5em 1em;
+	margin: 1em 0;
 	@include transition(box-shadow);
 	&:hover, &:focus {
 		@include box-shadow;
@@ -69,8 +65,7 @@ $sidebar: 175px;
 	margin: auto;
 	border-radius: $border_radius;
 	background-color: $white;
-
-
+	overflow: hidden;
 	z-index: 1;
 	section {
 		position: relative;
@@ -115,10 +110,12 @@ $sidebar: 175px;
 	position: absolute;
 	right: 0;
 	top: 1em;
+	z-index: 1;
 	&.menu-open {
-		z-index: 11;
+		
 		.nav-links {
 			opacity: 1;
+
 			@include transform(translateX(0%));
 		}
 		.menu-toggle {

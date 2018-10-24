@@ -2,8 +2,8 @@
 title: Home Page
 layout: index
 education:
-- title: 
-- title: 
+- title:
+- title:
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -75,17 +75,11 @@ experience:
       300 new teaching assistants and part-time lecturers.\n* Organized and ran the
       annual international teaching assistant orientation\n* Created and planned TAP
       workshops and certificate programs for graduate students and faculty.\n* Created
-      promotional materials for the program.      "
-papers:
-- title: 
-  link: 
-press:
-- outlet: 
-  logo: 
-  link: 
+      promotional materials for the program."
 teaching:
-- 
-about: lorem ipsum
+-
+about: |-
+  About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
     distribution programs in the US'

@@ -41,4 +41,30 @@
      {% endfor %}
    </div>
  </section>
+ <section id="publications">
+   <div>
+    <h2>Select Publications</h2>
+    <div class="pure-g pub-grid">
+      {% for pub in page.publications %}
+      <div class="pure-u-1 pure-u-md-1-2">
+        <h3>
+          {{ pub.title }} <span class="pub-vol">{{ pub.volume }}</span>
+        </h3>
+        <div class="authors">
+          {{ pub.authors }} <span class="pub-year">({{ pub.publish_date }})</span>
+        </div>
+        <a class="btn" href="{{ pub.link }}" target="_blank">
+          <i class="fa fa-file-text-o"></i> View
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+   </div>
+ </section>
+ <section id="leadership">
+   <div>
+
+   </div>
+ </section>
 </div>
