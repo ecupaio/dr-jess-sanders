@@ -128,6 +128,10 @@ leadership:
   timeline: August 2016 - Present
 - organization: Stonewall Dodgeball Team Fundraising Chair
   timeline: May 2016 – Present
+- organization: Urban Ecology Collaborative
+  role:
+  - title: Co-Chair
+    timeline: January 2015-August 2017
 
 ---
 {% include home.html %}
