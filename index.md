@@ -2,8 +2,8 @@
 title: Home Page
 layout: index
 education:
-- title: 
-- title: 
+- title:
+- title:
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -77,7 +77,7 @@ experience:
       * Created and planned TAP workshops and certificate programs for graduate students and faculty.
       * Created promotional materials for the program.
 teaching:
-- 
+-
 about: About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
@@ -119,33 +119,43 @@ publications:
   publish_date: 2008
   volume: 43(3)594
 leadership:
-- organization: Ecology+ NSF Steering Committee
-  timeline: August 2017 - Present
-- organization: Mid-Atlantic Chapter International Society of Arborists
-  role:
-  - title: Board Member
-- organization: International Society of Arborist Nominating and Elections Committee
-  timeline: August 2016 - Present
-- organization: Stonewall Dodgeball Team Fundraising Chair
-  timeline: May 2016 – Present
-- organization: Urban Ecology Collaborative
-  role:
-  - title: Co-Chair
-    timeline: January 2015-August 2017
-- organization: International Society of Arborists Arboricultural Research and Education
-    Academy
-  role:
-  - title: President
-    timeline: August 2016 - Current
-  - title: President Elect
-    timeline: August 2015 – July 2016
-  - title: Vice-President
-    timeline: August 2014-July 2015
-- timeline: November 2014 - Present
-  organization: Urban Tree Canopy Expert Panel
-- organization: EnvironMentors, Washington DC
-  role: []
-  timeline: Fall 2014 - Spring 2015
+  - organization: Ecology+ NSF Steering Committee
+    role:
+      - title: Committee member
+        timeline: August 2017 - Present
+  - organization: Mid-Atlantic Chapter International Society of Arborists
+    role:
+    - title: Board Member
+      timeline: October 2016 – Present
+  - organization: International Society of Arborist Nominating and Elections Committee
+    role:
+      - title: Committee member
+        timeline: August 2016 - Present
+  - organization: Stonewall Dodgeball
+    role:
+      - title: Team Fundraising Chair
+        timeline: May 2016 – Present
+  - organization: Urban Ecology Collaborative
+    role:
+    - title: Co-Chair
+      timeline: January 2015-August 2017
+  - organization: International Society of Arborists Arboricultural Research and Education
+      Academy
+    role:
+    - title: President
+      timeline: August 2016 - Current
+    - title: President Elect
+      timeline: August 2015 – July 2016
+    - title: Vice-President
+      timeline: August 2014-July 2015
+  - organization: Urban Tree Canopy Expert Panel
+    role:
+      - title: Panel member
+        timeline: November 2014 - Present
+  - organization: EnvironMentors, Washington DC
+    role:
+      - title: Mentor
+        timeline: Fall 2014 - Spring 2015
 
 ---
 {% include home.html %}

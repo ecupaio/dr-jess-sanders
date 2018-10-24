@@ -64,7 +64,27 @@
  </section>
  <section id="leadership">
    <div>
-
+     <h2>Leadership</h2>
+     {% for leadership in page.leadership %}
+      <div class="leadership-section">
+         <h3>{{ leadership.organization }}</h3>
+         <div class="leadership-roles">
+           {% for role in leadership.role %}
+            <div class="role">
+              <h4 class="role-title">{{role.title}}</h4>
+              <div class="role-timeline">{{ role.timeline }}</div>
+            </div>
+           {% endfor %}
+         </div>
+       </div>
+     {% endfor %}
    </div>
+ </section>
+ <section id="education">
+  <div>
+    <h2>Education</h2>
+    {% for education in page.education%}
+    {% endfor %}
+  </div>
  </section>
 </div>

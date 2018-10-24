@@ -1,4 +1,5 @@
 #home {
+  $section-border: solid 2px $l_gray;
   #about {
     color: $white;
     text-align: center;
@@ -50,5 +51,30 @@
         }
       }
     }
+  }
+  #leadership {
+    .leadership-section {
+      margin-bottom: 2em;
+      .leadership-roles {
+        margin-left: 2em;
+        .role {
+          margin-bottom: 1em;
+          position: relative;
+          &:after {
+            content: '\f067';
+            font-family: 'FontAwesome';
+            position: absolute;
+            left: -1.25em;
+            top: 0;
+            color: $primary_color;
+          }
+          .role-title {
+            margin: 0;
+          }
+        }
+
+      }
+    }
+
   }
 }
