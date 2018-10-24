@@ -77,4 +77,63 @@
     }
 
   }
+  #education {
+    .ed-timeline {
+      max-width: $size-medium;
+      margin: auto;
+    }
+    .ed-section {
+      padding-bottom: 2em;
+      position: relative;
+      & > div {
+        display: inline-block;
+        width: 50%;
+      }
+      $circle: 1.5em;
+      &:after {
+        position: absolute;
+        content: '';
+        width: $circle;
+        height: $circle;
+        left: 50%;
+        @include transform(translateX(-50%));
+        border: 2px solid $primary_color;
+        background-color: $white;
+        border-radius: 50%;
+      }
+      &:before {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 100%;
+        left: 50%;
+        @include transform(translateX(-50%));
+        top: 0;
+        background-color: $primary_color;
+      }
+      &.odd {
+        text-align: left;
+        & > div {
+          text-align: right;
+          padding-right: $circle;
+        }
+      }
+      &.even {
+        text-align: right;
+        & > div {
+          text-align: left;
+          padding-left: $circle;
+        }
+      }
+      &.true {
+        &:before {
+          display: none;
+        }
+      }
+
+      h3 {
+        margin: 0.5em 0 0;
+      }
+    }
+  }
 }

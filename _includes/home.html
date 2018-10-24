@@ -83,8 +83,20 @@
  <section id="education">
   <div>
     <h2>Education</h2>
-    {% for education in page.education%}
+    <div class="ed-timeline">
+    {% for ed in page.education %}
+    <div class="ed-section {% cycle 'odd', 'even' %} {{ forloop.last }}">
+      <div>
+        <div class="ed-cert">
+          <h3>{{ ed.cert }}</h3>
+        </div>
+        <div class="ed-school">
+            {{ ed.school }}
+        </div>
+      </div>
+    </div>
     {% endfor %}
+    </div>
   </div>
  </section>
 </div>

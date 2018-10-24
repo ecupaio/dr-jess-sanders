@@ -2,13 +2,12 @@
 title: Home Page
 layout: index
 education:
-- cert: B.S.  Environmental Studies
-  school: Richard Stockton College, Pomona, New Jersey
+- cert: Certified Project Management Professional
+- cert: ISA Certified Arborist
 - cert: Ph.D.
   school: Rutgers, The State University of New Jersey, New Brunswick, New Jersey
-- cert: ISA Certified Arborist
-- title: 
-  cert: Certified Project Management Professional
+- cert: B.S. Environmental Studies
+  school: Richard Stockton College, Pomona, New Jersey
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -82,7 +81,7 @@ experience:
       * Created and planned TAP workshops and certificate programs for graduate students and faculty.
       * Created promotional materials for the program.
 teaching:
-- 
+-
 about: About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
