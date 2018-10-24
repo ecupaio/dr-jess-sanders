@@ -2,6 +2,8 @@
 title: Home Page
 layout: index
 education:
+- cert: B.S.  Environmental Studies
+  school: Richard Stockton College, Pomona, New Jersey
 - cert: Ph.D.
   school: Rutgers, The State University of New Jersey, New Brunswick, New Jersey
 - cert: ISA Certified Arborist
