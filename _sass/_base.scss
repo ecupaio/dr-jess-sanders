@@ -74,8 +74,9 @@ $sidebar: 175px;
 	z-index: 1;
 	section {
 		position: relative;
+		padding: 2em;
 		& > div {
-			padding: 1em 2em;
+
 			h2 {
 				text-align: center;
 			}

@@ -1,75 +1,8 @@
 #home {
-  margin-top: 4em;
-  & > section {
-    $triangle-side: 100px;
-    &:before, &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 0;
-      bottom: 0;
-      width: $triangle-side;
-      height: 100%;
-    }
-    & > div {
-      $triangle-top: 4em;
-      &:before {
-        content: '';
-        position: absolute;
-        display: block;
-        width: 100%;
-        background-color: $primary_color;
-        left: 0;
-
-        height: $triangle-top;
-        top: -#{$triangle-top};
-        -webkit-clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-        clip-path: polygon(50% 0, 0% 100%, 100% 100%);
-
-      }
-      padding-bottom: #{$triangle-top + 2em};
-    }
-    &:nth-child(odd) {
-      &:before, &:after {
-        background-color: $primary_color;
-      }
-      & > div {
-        background-color: $primary_color;
-        color: $white;
-        &:before {
-          background-color: $primary_color;
-        }
-      }
-    }
-    &:nth-child(even) {
-      &:before, &:after {
-        background-color: $white;
-      }
-      & > div {
-        background-color: $white;
-        color: $charcoal;
-        &:before {
-          background-color: $white;
-        }
-      }
-    }
-    &:before {
-      right: -#{$triangle-side};
-      -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-      clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    }
-    &:after  {
-      left: -#{$triangle-side};
-      -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-      clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    }
-
-  }
   #about {
     color: $white;
     text-align: center;
-    &:before, &:after {
-    }
+    background-color: $primary_color;
   }
   #experience {
     .experience-grid {
@@ -80,7 +13,6 @@
         text-align: center;
         position: relative;
         color: $white;
-        
         margin-right: 1em;
         &:after {
           content: '';
@@ -99,10 +31,10 @@
         &:before {
           content: '';
           position: absolute;
-          left: 3px;
+          left: 2px;
           top: 0;
           height: 100%;
-          width: 3px;
+          width: 2px;
           background-color: $primary_color;
 
         }
