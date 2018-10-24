@@ -43,6 +43,9 @@ fields:
   - type: text
     name: authors
     label: Authors
+  - type: text
+    label: publish date
+    name: publish_date
 - type: field_group_list
   name: community_engagement
   label: Community Engagement
