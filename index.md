@@ -112,6 +112,7 @@ publications:
   title: Establishing Maximum Size Expectations for Urban Trees with Regard to  Designed
     Space
   link: http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3266&Type=2
+  volume: 39(2)
 - title: Urban tree planting and mortality statistics in the  Boroughs of NYC
   publisher: HortScience
   authors: Sanders J, Grabosky J, Flaxa-Raymond N, Greenfeld J
