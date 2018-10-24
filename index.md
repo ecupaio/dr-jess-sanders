@@ -110,6 +110,12 @@ publications:
   publisher: Cities and the Environment
   authors: Sanders JR, Duszak JE, Woodworth JW
   publish_date: '2013'
+- publisher: Journal of Arboriculture and Urban Forestry
+  authors: Sanders JR, Grabosky JC, Cowie P
+  publish_date: '2013'
+  title: Establishing Maximum Size Expectations for Urban Trees with Regard to  Designed
+    Space
+  link: http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3266&Type=2
 
 ---
 {% include home.html %}
