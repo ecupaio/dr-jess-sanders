@@ -104,6 +104,7 @@ publications:
 - title: '20 years later: Does reduced soil area change overall growth?'
   publisher: Urban Forestry  and Urban Greening
   authors: Sanders JR, Grabosky JC
+  publish_date: 13(2):295-303
 
 ---
 {% include home.html %}
