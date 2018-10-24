@@ -89,10 +89,11 @@ about: lorem ipsum
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
     distribution programs in the US'
-  link: https://www.fs.usda.gov/treesearch/pubs/53733
+  link: https://www.fs.fed.us/nrs/pubs/jrnl/2017/nrs_2017_nguyen_001.pdf
   publisher: Urban Foresty and Urban Greening
   authors: Nguyen VD, Roman L, Locke DH, Mincey SK, Sanders JR, Smith Fichman E, Duran-Mitchell
     M, Lumban Tobing S
+  publish_date: '2017'
 
 ---
 {% include home.html %}
