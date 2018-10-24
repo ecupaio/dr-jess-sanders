@@ -126,6 +126,8 @@ leadership:
   - title: Board Member
 - organization: International Society of Arborist Nominating and Elections Committee
   timeline: August 2016 - Present
+- organization: Stonewall Dodgeball Team Fundraising Chair
+  timeline: May 2016 – Present
 
 ---
 {% include home.html %}
