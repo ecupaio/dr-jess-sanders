@@ -105,6 +105,11 @@ publications:
   publisher: Urban Forestry  and Urban Greening
   authors: Sanders JR, Grabosky JC
   publish_date: 13(2):295-303
+- title: 'Proactive, not reactive: Evolving Elm Management in the Nation’s  Capital'
+  link: https://digitalcommons.lmu.edu/cate/vol6/iss1/8/
+  publisher: Cities and the Environment
+  authors: Sanders JR, Duszak JE, Woodworth JW
+  publish_date: 6 (1)
 
 ---
 {% include home.html %}
