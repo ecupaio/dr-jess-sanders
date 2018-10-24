@@ -2,6 +2,7 @@
 title: Home Page
 layout: index
 education:
+- cert: ISA Certified Arborist
 - title: 
   cert: Certified Project Management Professional
 experience:
