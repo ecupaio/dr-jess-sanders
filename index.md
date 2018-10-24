@@ -2,8 +2,8 @@
 title: Home Page
 layout: index
 education:
-- title:
-- title:
+- title: 
+- title: 
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -71,21 +71,28 @@ experience:
        Conducting Vegetation surveys in the Power line ROW."
   - title: 'Associate Director of Orientation, Project Coordinator and Assessment '
     timeline: June 2008 - July 2012
-    description: |-
-      * Organized, registered and ran the annual orientations for approximately 300 new teaching assistants and part-time lecturers.
-      * Organized and ran the annual international teaching assistant orientation
-      * Created and planned TAP workshops and certificate programs for graduate students and faculty.
-      * Created promotional materials for the program.      
+    description: "* Organized, registered and ran the annual orientations for approximately
+      300 new teaching assistants and part-time lecturers.\n* Organized and ran the
+      annual international teaching assistant orientation\n* Created and planned TAP
+      workshops and certificate programs for graduate students and faculty.\n* Created
+      promotional materials for the program.      "
 papers:
-- title:
-  link:
+- title: 
+  link: 
 press:
-- outlet:
-  logo:
-  link:
+- outlet: 
+  logo: 
+  link: 
 teaching:
--
+- 
 about: lorem ipsum
+publications:
+- title: 'Branching out to residential lands: Missions and strategies of five tree
+    distribution programs in the US'
+  link: https://www.fs.usda.gov/treesearch/pubs/53733
+  publisher: Urban Foresty and Urban Greening
+  authors: Nguyen VD, Roman L, Locke DH, Mincey SK, Sanders JR, Smith Fichman E, Duran-Mitchell
+    M, Lumban Tobing S
 
 ---
 {% include home.html %}
