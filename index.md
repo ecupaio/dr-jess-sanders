@@ -109,7 +109,7 @@ publications:
   link: https://digitalcommons.lmu.edu/cate/vol6/iss1/8/
   publisher: Cities and the Environment
   authors: Sanders JR, Duszak JE, Woodworth JW
-  publish_date: 6 (1)
+  publish_date: '2013'
 
 ---
 {% include home.html %}
