@@ -124,6 +124,8 @@ leadership:
 - organization: Mid-Atlantic Chapter International Society of Arborists
   role:
   - title: Board Member
+- organization: International Society of Arborist Nominating and Elections Committee
+  timeline: August 2016 - Present
 
 ---
 {% include home.html %}
