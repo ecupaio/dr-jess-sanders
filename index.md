@@ -105,6 +105,7 @@ publications:
   publisher: Cities and the Environment
   authors: Sanders JR, Duszak JE, Woodworth JW
   publish_date: 2013
+  volume: 6 (1)
 - publisher: Journal of Arboriculture and Urban Forestry
   authors: Sanders JR, Grabosky JC, Cowie P
   publish_date: 2013
