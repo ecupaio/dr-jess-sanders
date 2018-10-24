@@ -104,7 +104,7 @@ publications:
 - title: '20 years later: Does reduced soil area change overall growth?'
   publisher: Urban Forestry  and Urban Greening
   authors: Sanders JR, Grabosky JC
-  publish_date: 13(2):295-303
+  publish_date: '2014'
 - title: 'Proactive, not reactive: Evolving Elm Management in the Nation’s  Capital'
   link: https://digitalcommons.lmu.edu/cate/vol6/iss1/8/
   publisher: Cities and the Environment
