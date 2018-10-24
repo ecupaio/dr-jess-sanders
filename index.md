@@ -141,6 +141,11 @@ leadership:
     timeline: August 2015 – July 2016
   - title: Vice-President
     timeline: August 2014-July 2015
+- timeline: November 2014 - Present
+  organization: Urban Tree Canopy Expert Panel
+- organization: EnvironMentors, Washington DC
+  role: []
+  timeline: Fall 2014 - Spring 2015
 
 ---
 {% include home.html %}
