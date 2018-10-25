@@ -94,3 +94,7 @@ fields:
       - type: field_group_list
         name: courses
         label: courses
+        fields:
+        - type: text
+          name: title
+          label: Title
