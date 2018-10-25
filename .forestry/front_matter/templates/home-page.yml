@@ -76,3 +76,6 @@ fields:
   - type: text
     name: school
     label: School
+- type: field_group_list
+  name: teaching
+  label: Teaching
