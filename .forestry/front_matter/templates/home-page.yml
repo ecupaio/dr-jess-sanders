@@ -84,6 +84,9 @@ fields:
     name: school
     label: School
     fields:
+    - type: text
+      name: name
+      label: name
     - type: field_group_list
       name: role
       label: Role
