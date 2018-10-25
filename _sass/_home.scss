@@ -19,12 +19,19 @@
   }
   #experience {
     .experience-grid {
+      .time-col {
+        text-align: right;
+        @include bp-medium {
+          text-align: left;
+        }
+      }
       .experience-timeline {
         background-color: $primary_color;
         padding: 1em;
         font-size: 0.85em;
         text-align: center;
         position: relative;
+        display: inline-block;
         color: $white;
         margin-right: 2em;
         @include bp-medium {
@@ -55,13 +62,14 @@
         &:before {
           content: '';
           position: absolute;
-          left: 1PX;
+          left: 1px;
           top: 29px;
           height: 100%;
           width: 2px;
           background-color: $primary_color;
           @include bp-medium {
             top: -$top;
+            height: calc(100% + 4em);
           }
         }
         &:after {
@@ -75,6 +83,9 @@
           width: 1em;
           left: -0.5em;
           top: 1em;
+          @include bp-medium {
+            top: -$top;
+          }
         }
         &.last {
           &:before {
@@ -94,7 +105,6 @@
         }
         .role-timeline {
           color: $gray;
-          font-size: 0.75em;
         }
       }
     }
