@@ -79,3 +79,11 @@ fields:
 - type: field_group_list
   name: teaching
   label: Teaching
+  fields:
+  - type: field_group_list
+    name: school
+    label: School
+    fields:
+    - type: field_group_list
+      name: role
+      label: Role
