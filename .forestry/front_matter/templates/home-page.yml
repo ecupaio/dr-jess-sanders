@@ -98,3 +98,6 @@ fields:
         - type: text
           name: title
           label: Title
+        - type: text
+          name: semester
+          label: Semester
