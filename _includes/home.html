@@ -1,6 +1,9 @@
 <div id="home">
  <section id="about">
    <div>
+     <div class="headshot">
+       <img src="{{ base }}/images/jess-headshot.jpeg" />
+     </div>
      <h2>Jessica Sanders</h2>
      <h3>PhD | PMP</h3>
      <p>
@@ -13,19 +16,24 @@
    <div>
      <h2>Professional Experience</h2>
      {% for experience in page.experience %}
+
+      {% if forloop.last == true %}
+        {% assign last = 'last' %}
+      {% endif %}
+
      <div class="experience-grid pure-g">
        <div class="pure-u-1 pure-u-md-1-4 time-col">
          <div class="experience-timeline">
           {{ experience.timeline }}
          </div>
        </div>
-       <div class="pure-u-1 pure-u-md-3-4 details-col">
+       <div class="pure-u-1 pure-u-md-3-4 details-col {{last}}">
          <div>
            <h3>{{ experience.org }}</h3>
            {% for role in experience.role %}
            <div class="role">
              <div class="role-title">
-               {{ role.title }}
+               <h4>{{ role.title }}</h4>
              </div>
              <div class="role-timeline">
                {{ role.timeline }}
@@ -47,13 +55,17 @@
     <div class="pure-g pub-grid">
       {% for pub in page.publications %}
       <div class="pure-u-1 pure-u-md-1-2">
-        <h3>
-          {{ pub.title }} <span class="pub-vol">{{ pub.volume }}</span>
-        </h3>
-        <div class="authors">
+        <div class="pub-authors">
           {{ pub.authors }} <span class="pub-year">({{ pub.publish_date }})</span>
         </div>
-        <a class="btn" href="{{ pub.link }}" target="_blank">
+        <div class="pub-title">
+        <h4>
+          {{ pub.title }}
+        </h4>
+        <div class="pub-vol">{{ pub.volume }}</div>
+        </div>
+
+        <a class="btn" href="{{ base }}{{ pub.link }}" target="_blank">
           <i class="fa fa-file-text-o"></i> View
         </a>
       </div>
@@ -86,12 +98,15 @@
     <div class="ed-timeline">
     {% for ed in page.education %}
     <div class="ed-section {% cycle 'odd', 'even' %} {{ forloop.last }}">
-      <div>
+      <div class="section-inner">
         <div class="ed-cert">
-          <h3>{{ ed.cert }}</h3>
+          <h4>{{ ed.cert }}</h4>
         </div>
         <div class="ed-school">
             {{ ed.school }}
+        </div>
+        <div class="cert-year">
+          {{ ed.year }}
         </div>
       </div>
     </div>

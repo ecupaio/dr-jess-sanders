@@ -3,11 +3,15 @@ title: Home Page
 layout: index
 education:
 - cert: Certified Project Management Professional
+  year: 2017
 - cert: ISA Certified Arborist
+  year: 2015
 - cert: Ph.D.
   school: Rutgers University
+  year: 2012
 - cert: B.S. Environmental Studies
   school: Richard Stockton College
+  year: 2008
 experience:
 - org: Casey Trees
   timeline: July 2012 - Present
@@ -86,14 +90,14 @@ about: About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
     distribution programs in the US'
-  link: https://www.fs.fed.us/nrs/pubs/jrnl/2017/nrs_2017_nguyen_001.pdf
+  link: /assets/branching-out.pdf
   publisher: Urban Foresty and Urban Greening
   authors: Nguyen VD, Roman L, Locke DH, Mincey SK, Sanders JR, Smith Fichman E, Duran-Mitchell
     M, Lumban Tobing S
   publish_date: 2017
 - title: 'Trees and Income: Washington D.C. Tree Canopy Changes from 2006-2011 and
     which neighborhoods experienced them'
-  link: https://caseytrees.org/wp-content/uploads/2017/07/White-Paper-Trees-and-Income.pdf
+  link: /assets/White-Paper-Trees-and-Income.pdf
   publisher: Casey Trees
   authors: Sanders JR, Locke DH, O’Neil-Dunne JPM, MacFaden S, Royar A, Pelletier
     K, Gomez R
@@ -105,7 +109,7 @@ publications:
   publish_date: 2014
   volume: 13(2):295-303
 - title: 'Proactive, not reactive: Evolving Elm Management in the Nation’s  Capital'
-  link: https://digitalcommons.lmu.edu/cate/vol6/iss1/8/
+  link: /assets/Proactive_not_Reactive_Evolving_Elm_Management_in_the_Nations_Capital.pdf
   publisher: Cities and the Environment
   authors: Sanders JR, Duszak JE, Woodworth JW
   publish_date: 2013
@@ -115,7 +119,7 @@ publications:
   publish_date: 2013
   title: Establishing Maximum Size Expectations for Urban Trees with Regard to  Designed
     Space
-  link: http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3266&Type=2
+  link: /assets/est-max-size.pdf
   volume: 39(2)
 - title: Urban tree planting and mortality statistics in the  Boroughs of NYC
   publisher: HortScience
