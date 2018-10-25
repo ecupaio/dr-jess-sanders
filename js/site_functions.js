@@ -13,4 +13,10 @@ $(function(){
         $('#site-nav').css('top','1em');
       }
   });
+  //pub slider
+  $('.pub-slider').slick({
+    slidesToShow: 3,
+    centerMode: true,
+    dots: true
+  });
 });

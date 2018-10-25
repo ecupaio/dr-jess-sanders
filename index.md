@@ -84,8 +84,7 @@ experience:
       * Organized and ran the annual international teaching assistant orientation
       * Created and planned TAP workshops and certificate programs for graduate students and faculty.
       * Created promotional materials for the program.
-teaching:
--
+
 about: About text
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree

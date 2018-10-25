@@ -24,7 +24,7 @@
    <div>
      <h2>Select Teaching</h2>
      <div>
-       
+
      </div>
    </div>
  </section>
@@ -68,26 +68,26 @@
  <section id="publications">
    <div>
     <h2>Select Publications</h2>
-    <div class="pure-g pub-grid">
+    <div class="pub-slider">
       {% for pub in page.publications %}
-      <div class="pure-u-1 pure-u-md-1-2">
-        <div class="pub-authors">
-          {{ pub.authors }} <span class="pub-year">({{ pub.publish_date }})</span>
+      <div class="pub-slide">
+        <div class="slide-inner">
+          <div class="pub-title">
+            <h4>
+              {{ pub.title }}
+            </h4>
+          </div>
+          <div class="pub-vol">{{ pub.volume }}</div>
+          <div class="pub-authors">
+            {{ pub.authors }} <span class="pub-year">({{ pub.publish_date }})</span>
+          </div>
+          <a class="btn" href="{{ base }}{{ pub.link }}" target="_blank">
+            <i class="fa fa-file-text-o"></i> View
+          </a>
         </div>
-        <div class="pub-title">
-        <h4>
-          {{ pub.title }}
-        </h4>
-        <div class="pub-vol">{{ pub.volume }}</div>
-        </div>
-
-        <a class="btn" href="{{ base }}{{ pub.link }}" target="_blank">
-          <i class="fa fa-file-text-o"></i> View
-        </a>
       </div>
       {% endfor %}
     </div>
-
    </div>
  </section>
  <section id="leadership">
