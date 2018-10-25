@@ -91,3 +91,6 @@ fields:
       - type: text
         name: title
         label: Title
+      - type: field_group_list
+        name: courses
+        label: courses
