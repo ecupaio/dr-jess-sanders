@@ -4,7 +4,7 @@ description: Urban Forester
 meta_img:
 twitter:
 favicon:
-baseurl: '/dr-jess-sanders'  
+baseurl: '/dr-jess-sanders'
 url: 'https://ecupaio.github.io/dr-jess-sanders/'
 gtm:
 timezone: America/New York
@@ -17,6 +17,23 @@ exclude:
 - Gemfile.lock
 - node_modules
 - gruntfile.js
+menus:
+  sidebar:
+    - url: /#publications
+      title: Publications
+      icon: fa-file-text
+    - url: /#experience
+      title: Experience
+      icon: fa-briefcase
+    - url: /#leadership
+      title: Leadership
+      icon: fa-gavel
+    - url: /#education
+      title: Education
+      icon: fa-graduation-cap
+    - url: /#blog
+      title: Blog
+      icon: fa-pencil
 sass:
   sass_dir: _sass
   style: compressed
