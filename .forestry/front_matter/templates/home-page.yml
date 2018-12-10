@@ -76,3 +76,31 @@ fields:
   - type: text
     name: school
     label: School
+- type: field_group_list
+  name: teaching
+  label: Teaching
+  fields:
+  - type: field_group_list
+    name: school
+    label: School
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: field_group_list
+      name: role
+      label: Role
+      fields:
+      - type: text
+        name: title
+        label: Title
+      - type: field_group_list
+        name: courses
+        label: courses
+        fields:
+        - type: text
+          name: title
+          label: Title
+        - type: text
+          name: semester
+          label: Semester
