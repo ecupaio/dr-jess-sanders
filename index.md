@@ -86,6 +86,36 @@ experience:
       * Created promotional materials for the program.
 
 about: About text
+teaching:
+- school: University of Maryland College Park
+  logo: maryland_logo.svg
+  role:
+    - title: Adjunct Professor
+      courses:
+      - title: Forest Ecology
+        semester: Spring 2017,2018
+- school: Rutgers University
+  logo: rutgers_logo.svg
+  role:
+    - title: Course Supervisor
+      courses:
+      - title: Higher Education Leadership
+        semester: Spring 2011, 2012
+      - title: Leadership Issues in Higher Education
+        semester: Fall 2011, 2010
+    - title: Visiting Lecturer
+      courses:
+      - title: Trees and the Environment
+      - title: Urban Forestry
+      - title: Extreme Students
+      - title: Expanding the Learning Environment
+      - title: Group Work and Assessment
+    - title: Course Instructor
+      courses:
+        - title: College Teaching II
+          semester: Fall 2008, 2009, 2011
+        - title: Arboriculture
+          semester: Fall 2009
 publications:
 - title: 'Branching out to residential lands: Missions and strategies of five tree
     distribution programs in the US'

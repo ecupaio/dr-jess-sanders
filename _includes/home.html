@@ -20,14 +20,6 @@
      <a href="" class="btn white">Download CV</a>
    </div>
  </section>
- <section id="teaching">
-   <div>
-     <h2>Select Teaching</h2>
-     <div>
-
-     </div>
-   </div>
- </section>
  <section id="experience">
    <div>
      <h2>Professional Experience</h2>
@@ -63,6 +55,40 @@
        </div>
      </div>
      {% endfor %}
+   </div>
+ </section>
+ <section id="teaching">
+   <div>
+     <h2>Select Teaching</h2>
+     <div class="teaching-grid pure-g">
+       {% for school in page.teaching %}
+       <div class="school pure-u-1 pure-u-md-1-2">
+         <div class="school-title">
+           <div class="school-logo">
+             {% include svg/{{ school.logo }}%}
+           </div>
+           <h3>{{ school.school }}</h3>
+         </div>
+
+         {% for role in school.role %}
+         <div class="school-role">
+           <h4>{{ role.title }}</h4>
+             {% for course in role.courses %}
+             <div class="course">
+               <div class="course-title">
+                  {{ course.title }}
+               </div>
+               <div class="course-semester">
+                 {{ course.semester }}
+               </div>
+             </div>
+
+             {% endfor %}
+         </div>
+         {% endfor %}
+       </div>
+       {% endfor %}
+     </div>
    </div>
  </section>
  <section id="publications">
