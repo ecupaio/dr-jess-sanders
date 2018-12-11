@@ -24,7 +24,7 @@ menus: sidebar
               <i class="fa fa-angle-left"></i>
             </div>
             <ul class="nav-links">
-              {% for item in site.menus.sidebar %}
+              {% for item in site.data.menus.sidebar %}
               <li>
                 <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
               </li>
@@ -35,6 +35,6 @@ menus: sidebar
         </div>
     </div>
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="{{ base }}/js/site_functions.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="{{ site.baseurl }}/js/site_functions.js"></script>
 </body>

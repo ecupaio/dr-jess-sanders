@@ -17,6 +17,21 @@ $(function(){
   $('.pub-slider').slick({
     slidesToShow: 3,
     centerMode: true,
-    dots: true
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 568,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false
+        }
+      }
+    ]
   });
 });

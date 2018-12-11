@@ -1,18 +1,16 @@
----
 sidebar:
-  - url: /#publications
+  - url: /dr-jess-sanders/#publications
     title: Publications
     icon: fa-file-text
-  - url: /#experience
+  - url: /dr-jess-sanders/#experience
     title: Experience
     icon: fa-briefcase
-  - url: /#leadership
+  - url: /dr-jess-sanders/#leadership
     title: Leadership
     icon: fa-gavel
-  - url: /#education
+  - url: /dr-jess-sanders/#education
     title: Education
     icon: fa-graduation-cap
-  - url: /#blog
+  - url: /dr-jess-sanders/#blog
     title: Blog
     icon: fa-pencil
----

@@ -24,11 +24,9 @@
    <div>
      <h2>Professional Experience</h2>
      {% for experience in page.experience %}
-
       {% if forloop.last == true %}
         {% assign last = 'last' %}
       {% endif %}
-
      <div class="experience-grid pure-g">
        <div class="pure-u-1 pure-u-md-1-4 time-col">
          <div class="experience-timeline">
