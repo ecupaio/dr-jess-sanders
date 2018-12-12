@@ -22,11 +22,13 @@ $(function(){
     $('#site-nav').removeClass('menu-open');
     window.location.hash = anchor;
   });
-
+if (window.location.hash !== '') {
   $(window).load(function() {
     console.log(window.location.hash);
     $(window).scrollTop($(window.location.hash).offset().top);
   });
+}
+
 
 
   //pub slider
