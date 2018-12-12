@@ -4,8 +4,8 @@ description: Urban Forester
 meta_img:
 twitter:
 favicon: tree.png
-baseurl: '/dr-jess-sanders'
-url: 'https://ecupaio.github.io/dr-jess-sanders/'
+baseurl: '/'
+url: 'https://jessicasandersphd.com'
 gtm:
 timezone: America/New York
 future: true
