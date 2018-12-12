@@ -103,6 +103,11 @@ Either pass the px number through individually, or set it as a variable */
     @content;
   }
 }
+ @mixin bp-custom($size) {
+	 @media only screen and (max-width: $size) {
+     @content;
+   }
+ }
 // Add Gutters - include in any section you want to have gutters, such as the form
 @mixin gridGutters($grid-gutters) {
 	//Gutter Padding Method

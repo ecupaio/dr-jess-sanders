@@ -7,12 +7,28 @@ $(function(){
   $(window).scroll(function() {
     var top = $(window).scrollTop();
       if ($(window).scrollTop() > siteNav) {
-          $('#site-nav').css('top',top);
+        $('#site-nav').css('top',top);
       }
       else {
         $('#site-nav').css('top','1em');
       }
   });
+  $('.nav-link').click(function(e) {
+    e.preventDefault();
+    var anchor = $(this).text().toLowerCase();
+    $('html,body').animate({
+      scrollTop: $('#'+anchor).offset().top
+    });
+    $('#site-nav').removeClass('menu-open');
+    window.location.hash = anchor;
+  });
+
+  $(window).load(function() {
+    console.log(window.location.hash);
+    $(window).scrollTop($(window.location.hash).offset().top);
+  });
+
+
   //pub slider
   $('.pub-slider').slick({
     slidesToShow: 3,

@@ -21,7 +21,7 @@
     .experience-grid {
       .time-col {
         text-align: right;
-        @include bp-medium {
+        @include bp-large {
           text-align: left;
         }
       }
@@ -36,9 +36,10 @@
         height: 44px;
         white-space: nowrap;
         margin-right: 2em;
-        @include bp-medium {
+        @include bp-large {
           margin-right: 0;
           margin-left: 2em;
+          top: 10px;
         }
         &:after {
           content: '';
@@ -49,7 +50,7 @@
           border-bottom: $triangle solid transparent;
           border-left: $triangle solid $primary_color;
           position: absolute;
-          @include bp-medium {
+          @include bp-large {
             border-top: $triangle solid transparent;
             border-bottom: $triangle solid transparent;
             border-right: $triangle solid $primary_color;
@@ -69,7 +70,7 @@
           height: 100%;
           width: 2px;
           background-color: $primary_color;
-          @include bp-medium {
+          @include bp-large {
             top: -$top;
             height: calc(100% + 4em);
           }
@@ -85,7 +86,7 @@
           width: 1em;
           left: -0.5em;
           top: 1em;
-          @include bp-medium {
+          @include bp-large {
             top: -$top;
           }
         }
@@ -112,7 +113,6 @@
     }
   }
   #teaching {
-
     .school {
       position: relative;
 
@@ -184,21 +184,18 @@
   #publications {
     padding: 2em 0;
     .pub-slider {
-      .slick-list,
-      .slick-track,
-      .slick-slide {
-        height: 100%;
-        display: flex;
 
-      }
       .pub-slide {
         padding: 0 1em;
-
+        &:active,&:focus {
+          outline: none;
+        }
         .slide-inner {
           padding: 1em;
           padding-bottom: 4em;
           position: relative;
           height: 100%;
+          width: 100%;
           @include box-shadow;
           .pub-title {
 
@@ -210,12 +207,15 @@
         }
       }
       //slick overrides
-      .slick-list,
-      .slick-track {
-        height: 100%;
-        justify-content: center;
+      .slick-track{
+        display: flex;
+        .slick-slide{
+          display: flex;
+          height: auto;
+          align-items: center;
+          justify-content: center;
+        }
       }
-
       .slick-track {
         margin: 1em 0;
       }
@@ -246,9 +246,14 @@
         display: inline-block;
         width: 50%;
         position: relative;
+        @include bp-small {
+          width: 100%;
+          display: block;
+        }
         .cert-year {
           position: absolute;
           top: 0.5em;
+
         }
       }
       $circle: 1.5em;
@@ -262,6 +267,10 @@
         border: 2px solid $primary_color;
         background-color: $white;
         border-radius: 50%;
+        @include bp-small {
+          left: 0;
+          top: 0;
+        }
       }
       &:before {
         position: absolute;
@@ -272,7 +281,11 @@
         @include transform(translateX(-50%));
         top: 0;
         background-color: $primary_color;
+        @include bp-small {
+          left: 0;
+        }
       }
+
       &.odd {
         text-align: left;
         & > div {
@@ -293,14 +306,30 @@
           left: -4em;
         }
       }
+      @include bp-small {
+        &.odd,&.even {
+          & > div {
+            text-align: left;
+            padding-left: 1.5em;
+          }
+          .cert-year {
+            position: relative;
+            left: 0;
+            top: 0;
+          }
+        }
+      }
+
       &.true {
         &:before {
           display: none;
         }
       }
-
       h4 {
         margin: 0.5rem 0 0;
+        @include bp-small {
+          margin: 0;
+        }
       }
     }
   }
