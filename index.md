@@ -85,7 +85,8 @@ experience:
       * Created and planned TAP workshops and certificate programs for graduate students and faculty.
       * Created promotional materials for the program.
 
-about: About text
+about: |-
+  Urban Forestry expert and experienced manager
 teaching:
 - school: University of Maryland College Park
   logo: maryland_logo.svg

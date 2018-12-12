@@ -4,7 +4,7 @@ description: Urban Forester
 meta_img:
 twitter:
 favicon: tree.png
-baseurl: '/'
+baseurl: ''
 url: 'https://jessicasandersphd.com'
 gtm:
 timezone: America/New York
