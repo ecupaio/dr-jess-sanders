@@ -4,37 +4,32 @@ menus: sidebar
 ---
 <!DOCTYPE html>
 <html>
-
 <head>
-    {% include head.html %}
+  {% include head.html %}
 </head>
-
 <body>
-    {% if site.gtm %}
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm }}"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    {% endif %}
-
-    <div id="wrapper">
-        <div id="main">
-          <nav id="site-nav">
-            <div class="menu-toggle">
-              <i class="fa fa-angle-left"></i>
-            </div>
-            <ul class="nav-links">
-              {% for item in site.data.menus.sidebar %}
-              <li>
-                <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </nav>
-          {{ content }}
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CVG988"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="wrapper">
+    <div id="main">
+      <nav id="site-nav">
+        <div class="menu-toggle">
+          <i class="fa fa-angle-left"></i>
         </div>
+        <ul class="nav-links">
+          {% for item in site.data.menus.sidebar %}
+          <li>
+            <a class="nav-link" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {{ content }}
     </div>
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="{{ site.baseurl }}/js/site_functions.js"></script>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="{{ site.baseurl }}/js/site_functions.js"></script>
 </body>
