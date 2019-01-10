@@ -2,7 +2,7 @@
 title: "Jess Sanders, PhD"
 description: Urban Forester
 meta_img:
-twitter:
+email: sandersjessicar@gmail.com
 favicon: tree.png
 baseurl: ''
 url: 'https://jessicasandersphd.com'
@@ -26,7 +26,11 @@ defaults:
 - scope:
     path: ''
   values:
-    layout: index
+    layout: default
+- scope:
+    type: 'posts'
+  values:
+    layout: blog-post
 # collections:
 #   collection-name:
 #     output: true

@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: index
+layout: home
 education:
 - cert: Certified Project Management Professional
   year: 2017
@@ -194,6 +194,4 @@ leadership:
   role:
   - title: Mentor
     timeline: Fall 2014 - Spring 2015
-
 ---
-{% include home.html %}

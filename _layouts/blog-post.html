@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div id="blog-post">
+
+  <section id="hero">
+    <h1>{{ page.title }}</h1>
+  </section>
+  <section id="post-body">
+    <div class="author">
+      <img class="author-img" src="/images/jess-headshot.jpeg"/>
+      <h3 class="author-name">Jessica Sanders</h3>
+      <a href="mailto:{{ site.email }}"><i class="fa fa-paper-plane"></i> Contact</a>
+      <div class="share-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-link"></i>
+      </div>
+    </div>
+    <div class="post-content">
+      {{ page.content }}
+    </div>
+
+  </section>
+</div>
