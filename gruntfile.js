@@ -40,9 +40,6 @@ module.exports = function(grunt) {
       }
     },
     shell: {
-      installBundle: {
-        command: 'bundle'
-      },
       jekyllServe: {
         command: 'bundle exec jekyll serve --livereload '
       }
@@ -60,5 +57,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-shell');
-  grunt.registerTask('default', ['shell:installBundle','concurrent:target']);
+  grunt.registerTask('default', ['concurrent:target']);
 };
