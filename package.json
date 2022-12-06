@@ -11,7 +11,7 @@
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-imagemin": "^1.0.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-newer": "^1.1.2",
     "grunt-shell": "^2.1.0",
     "imagemin-mozjpeg": "^5.1.0",
